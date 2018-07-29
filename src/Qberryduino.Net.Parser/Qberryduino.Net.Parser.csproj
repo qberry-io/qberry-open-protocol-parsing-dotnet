@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="Core\KeyDefinition\" />
+    <Folder Include="Core\Message\" />
+    <Folder Include="Parsing\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="TypeDescriptor.cs" />
+    <Compile Remove="Keyval.cs" />
+  </ItemGroup>
 </Project>
