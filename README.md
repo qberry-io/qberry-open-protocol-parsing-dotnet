@@ -1,5 +1,5 @@
 
-# Qberry Open Protocol Parsing Library for dotnet v.1.0.0-beta1
+# Qberry Open Protocol Parsing Library v.1.0.0-beta1
 
 "Qberry Open Parsing Library" is the official library for parsing messages built with ["Qberry Open Protocol"](https://github.com/denizkanmaz/qberry-open-protocol).
 
@@ -8,6 +8,7 @@ You can get the latest release from the official Nuget.org feed or from the gith
 ## Getting Started
 
 ### Example 1:
+Demonstration of parsing a "HOLA" message.
 ```csharp
     // The raw message from the device..
     string rawMessage = "$|11|HOLA|12|90111122223333444|13|WMXQFV|14|B23a56|15|ONE|16|1.0.0|$";
@@ -27,6 +28,7 @@ You can get the latest release from the official Nuget.org feed or from the gith
 ```
   
 ### Example 2:
+Demonstration of parsing a "GNSS" message.
 ```csharp
    // The raw message from the device..
     string rawMessage = "$|11|GNSS|12|90111122223333444|13|WMXQFV|211|1|212|39.922790|213|32.838507|214|108.600|215|0.43|216|344.6|217|1|218|5|219|0|$";
