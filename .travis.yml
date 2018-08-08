@@ -1,2 +1,11 @@
 language: csharp
+dist: trusty
+mono: none
 solution: Qberry.Open.Protocol.sln
+
+install:
+- dotnet restore
+
+script:
+- dotnet build
+- dotnet test tests/Qberry.Open.Protocol.Parsing.UnitTest/Qberry.Open.Protocol.Parsing.UnitTest.csproj
