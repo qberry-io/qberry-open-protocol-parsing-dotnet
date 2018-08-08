@@ -54,7 +54,7 @@ Used [SemVer](http://semver.org/) for versioning. For the versions available, se
 
 ## Authors
 
-* **[Deniz Kanmaz](https://github.com/denizkanmaz)** - *Initial work* - [qberry.io](https://qberry.io)
+* **[Deniz Kanmaz (denizkanmaz@gmail.com)](https://github.com/denizkanmaz)** - *Initial work* - [qberry.io](https://qberry.io)
 
 ## License
 
