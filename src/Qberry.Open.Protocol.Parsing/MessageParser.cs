@@ -33,7 +33,7 @@ namespace Qberry.Open.Protocol.Parsing
         /// <returns>
         /// The result of the parsing operation.
         /// </returns>
-        public static MessageParseResult Parse(string rawMessage)
+        public static ParsingResult Parse(string rawMessage)
         {
             // Validate the message (Throws if invalid)..
             Validate(rawMessage);
@@ -70,7 +70,7 @@ namespace Qberry.Open.Protocol.Parsing
                     typeof(MessageTypes),
                     splitted[indexOfMTVal]);
 
-            return new MessageParseResult(rawMessage, keyvals, messageType);
+            return new ParsingResult(rawMessage, keyvals, messageType);
         }
         #endregion
 

@@ -26,9 +26,9 @@ namespace Qberry.Open.Protocol.Parsing.Messaging
         /// <summary>
         /// Initializes a new instance of the <see cref="GnssMessage"/> class.
         /// </summary>
-        /// <param name="parseResult">The instance of the <see cref="MessageParseResult"/>
+        /// <param name="parseResult">The instance of the <see cref="ParsingResult"/>
         /// created by the <see cref="MessageParser"/> utility.</param>
-        public GnssMessage(MessageParseResult parseResult) : base(
+        public GnssMessage(ParsingResult parseResult) : base(
                         parseResult.RawMessage,
                         parseResult.Keyvals,
                         MessageTypes.GNSS)

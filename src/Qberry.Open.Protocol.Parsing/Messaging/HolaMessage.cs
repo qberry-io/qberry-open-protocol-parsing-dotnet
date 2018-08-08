@@ -24,9 +24,9 @@ namespace Qberry.Open.Protocol.Parsing.Messaging
         /// <summary>
         /// Initializes a new instance of the <see cref="HolaMessage"/> class.
         /// </summary>
-        /// <param name="parseResult">The instance of the <see cref="MessageParseResult"/>
+        /// <param name="parseResult">The instance of the <see cref="ParsingResult"/>
         /// created by the <see cref="MessageParser"/> utility.</param>
-        public HolaMessage(MessageParseResult parseResult) : base(
+        public HolaMessage(ParsingResult parseResult) : base(
                        parseResult.RawMessage,
                        parseResult.Keyvals,
                        MessageTypes.HOLA)

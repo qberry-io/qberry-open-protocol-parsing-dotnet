@@ -18,18 +18,18 @@ namespace Qberry.Open.Protocol.Parsing
     /// <summary>
     /// Represents the result of a parse operation.
     /// </summary>
-    public class MessageParseResult
+    public class ParsingResult
     {
         #region Constructors
         /// <summary>
-        /// Initializes a new instance of the <see cref="MessageParseResult"/>
+        /// Initializes a new instance of the <see cref="ParsingResult"/>
         /// class.
         /// </summary>
         /// <param name="rawMessage">Raw message from the device.</param>
         /// <param name="keyvals">KeyVal collection created by
         /// <see cref="MessageParser"/> utility.</param>
         /// <param name="messageType">Type of the message.</param>
-        internal MessageParseResult(string rawMessage,
+        internal ParsingResult(string rawMessage,
                                     Dictionary<string, object> keyvals,
                                     MessageTypes messageType)
         {
