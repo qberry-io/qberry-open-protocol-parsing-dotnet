@@ -1,4 +1,2 @@
 language: csharp
-solution: solution-name.sln
-script:
-  - ./build.sh
+solution: Qberry.Open.Protocol.sln
