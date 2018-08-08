@@ -22,22 +22,12 @@ namespace Qberry.Open.Protocol.Parsing.UnitTest
         [Fact]
         public void Parse_HOLA_Messages_Correctly()
         {
-            // The raw message from the device..
             string rawMessage = "$|11|HOLA|12|90111122223333444|13|WMXQFV|14|B23a56|15|ONE|16|1.0.0|$";
 
-            // Parse the raw message using MessageParser utility.
             var pr = MessageParser.Parse(rawMessage);
+            Assert.Equal(MessageTypes.HOLA, pr.MessageType);
 
-            // Writing the message type to the console
-            System.Console.WriteLine($"The type of the message is {pr.MessageType}.");
-
-            // Creation of the object form of the message.
             var m = new HolaMessage(pr);
-
-            // Writing some values to the console.
-            System.Console.WriteLine($"The device id is {m.DeviceIdentity}.");
-            System.Console.WriteLine($"The protocol version of the device id is {m.ProtocolVersion}.");
-
             Assert.Equal(MessageTypes.HOLA, m.MessageType);
             Assert.Equal("90111122223333444", m.DeviceIdentity);
             Assert.Equal("WMXQFV", m.ConnectionId);
@@ -66,7 +56,7 @@ namespace Qberry.Open.Protocol.Parsing.UnitTest
         [Fact]
         public void Parse_GNSS_Messages_Correctly()
         {
-            string rawMessage = "$|11|GNSS|12|90111122223333444|13|WMXQFV|211|1|212|39.922790|213|32.838507|214|108.600|215|0.43|216|344.6|217|1|218|5|219|0|$";
+            string rawMessage = "$|11|GNSS|12|90111122223333444|13|WMXQFV|211|1|212|41.042820|213|28.689460|214|108.600|215|0.43|216|344.6|217|1|218|5|219|0|$";
 
             var pr = MessageParser.Parse(rawMessage);
             Assert.Equal(MessageTypes.GNSS, pr.MessageType);
@@ -76,8 +66,8 @@ namespace Qberry.Open.Protocol.Parsing.UnitTest
             Assert.Equal("90111122223333444", m.DeviceIdentity);
             Assert.Equal("WMXQFV", m.ConnectionId);
             Assert.True(m.FixStatus);
-            Assert.Equal(39.922790, m.Latitude);
-            Assert.Equal(32.838507, m.Longtitude);
+            Assert.Equal(41.042820, m.Latitude);
+            Assert.Equal(28.689460, m.Longtitude);
             Assert.Equal(108.600, m.Altitude);
             Assert.Equal(0.43, m.SpeedOverGround);
             Assert.Equal(344.6, m.CourseOverGround);
