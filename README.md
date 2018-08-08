@@ -1,5 +1,5 @@
 
-# Qberry Open Protocol Parsing Library v.1.0.0-beta1
+# Qberry Open Protocol Parsing Library for dotnet v.1.0.0-beta1
 
 "Qberry Open Parsing Library" is the official library for parsing messages built with ["Qberry Open Protocol"](https://github.com/denizkanmaz/qberry-open-protocol).
 
