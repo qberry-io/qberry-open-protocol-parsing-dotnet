@@ -4,7 +4,7 @@ mono: none
 solution: Qberry.Open.Protocol.sln
 
 install:
-- dotnet restore
+- dotnet restore Qberry.Open.Protocol.sln
 
 script:
 - dotnet build
