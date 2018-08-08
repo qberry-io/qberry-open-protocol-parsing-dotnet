@@ -50,7 +50,7 @@ Demonstration of parsing a "GNSS" message.
 ```
 ## Versioning
 
-Used [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/denizkanmaz/qberryduino-gateway-one/tags). 
+Used [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/denizkanmaz/qberry-open-protocol-parsing-dotnet/tags). 
 
 ## Authors
 
