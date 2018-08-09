@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1451E263-F3FD-467C-9DB4-889E705E69CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qberry.Open.Protocol.Core", "src\Qberry.Open.Protocol.Core\Qberry.Open.Protocol.Core.csproj", "{2657B6A4-0B13-4363-8B6A-5350FF223B91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qberry.Open.Protocol.Parsing", "src\Qberry.Open.Protocol.Parsing\Qberry.Open.Protocol.Parsing.csproj", "{514579E8-75F4-4F67-BF0B-467D1B8A0F8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0CC73BFD-1071-4E3C-997D-0E163CFA4E61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qberry.Open.Protocol.Parsing.UnitTest", "tests\Qberry.Open.Protocol.Parsing.UnitTest\Qberry.Open.Protocol.Parsing.UnitTest.csproj", "{15DF4A87-3410-4617-94B3-704D9642B345}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2657B6A4-0B13-4363-8B6A-5350FF223B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2657B6A4-0B13-4363-8B6A-5350FF223B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2657B6A4-0B13-4363-8B6A-5350FF223B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2657B6A4-0B13-4363-8B6A-5350FF223B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514579E8-75F4-4F67-BF0B-467D1B8A0F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514579E8-75F4-4F67-BF0B-467D1B8A0F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514579E8-75F4-4F67-BF0B-467D1B8A0F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514579E8-75F4-4F67-BF0B-467D1B8A0F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15DF4A87-3410-4617-94B3-704D9642B345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DF4A87-3410-4617-94B3-704D9642B345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DF4A87-3410-4617-94B3-704D9642B345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DF4A87-3410-4617-94B3-704D9642B345}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2657B6A4-0B13-4363-8B6A-5350FF223B91} = {1451E263-F3FD-467C-9DB4-889E705E69CA}
+		{514579E8-75F4-4F67-BF0B-467D1B8A0F8B} = {1451E263-F3FD-467C-9DB4-889E705E69CA}
+		{15DF4A87-3410-4617-94B3-704D9642B345} = {0CC73BFD-1071-4E3C-997D-0E163CFA4E61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8AC1C09-DB03-4F3B-AD29-7E88C467D892}
+	EndGlobalSection
+EndGlobal
