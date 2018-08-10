@@ -5,6 +5,8 @@
 
 You can get the latest release from the official Nuget.org feed or from the github releases page.
 
+[![build status](https://travis-ci.org/denizkanmaz/qberry-open-protocol-parsing-dotnet.svg?branch=master)
+
 ## Getting Started
 
 ### Example 1:
