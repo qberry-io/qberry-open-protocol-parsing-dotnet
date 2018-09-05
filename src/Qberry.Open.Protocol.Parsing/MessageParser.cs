@@ -63,12 +63,10 @@ namespace Qberry.Open.Protocol.Parsing
             }
 
             // Find out the type of the message.
-            var indexOfMTVal = Array.IndexOf(splitted,
-                splitted.Where(i => i == HeaderKeyDefinition.MESSAGE_TYPE)
-                .SingleOrDefault()) + 1;
-            var messageType = (MessageTypes)Enum.Parse(
-                    typeof(MessageTypes),
-                    splitted[indexOfMTVal]);
+            var mts = keyvals.SingleOrDefault(
+                i => i.Key == HeaderKeyDefinition.MESSAGE_TYPE).Value;
+            var messageType = (MessageTypes)Enum.Parse(typeof(MessageTypes),
+                    (string)mts);
 
             return new ParsingResult(rawMessage, keyvals, messageType);
         }

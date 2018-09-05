@@ -56,7 +56,7 @@ namespace Qberry.Open.Protocol.Parsing.UnitTest
         [Fact]
         public void Parse_GNSS_Messages_Correctly()
         {
-            string rawMessage = "$|11|GNSS|12|90111122223333444|13|WMXQFV|211|1|212|41.042820|213|28.689460|214|108.600|215|0.43|216|344.6|217|1|218|5|219|0|$";
+            string rawMessage = "$|11|GNSS|12|90111122223333444|13|WMXQFV|211|1|212|41.042820|213|28.689460|214|108.600|215|0.43|216|344.6|217|1|218|11|219|0|$";
 
             var pr = MessageParser.Parse(rawMessage);
             Assert.Equal(MessageTypes.GNSS, pr.MessageType);
