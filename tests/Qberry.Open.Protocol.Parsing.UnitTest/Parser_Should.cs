@@ -72,7 +72,7 @@ namespace Qberry.Open.Protocol.Parsing.UnitTest
             Assert.Equal(0.43, m.SpeedOverGround);
             Assert.Equal(344.6, m.CourseOverGround);
             Assert.True(m.FixMode);
-            Assert.Equal(5, m.GNSSSatellitesUsed);
+            Assert.Equal(11, m.GNSSSatellitesUsed);
             Assert.Equal(0, m.GLONASSSatellitesUsed);
         }
 
