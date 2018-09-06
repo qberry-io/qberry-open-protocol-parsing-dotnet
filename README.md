@@ -1,9 +1,10 @@
 
-# Qberry Open Protocol Parsing Library v.1.0.0-beta1
+
+# Qberry Open Protocol Parsing Library v.1.0.0-beta2
 
 "Qberry Open Parsing Library" is the official library for parsing messages built with ["Qberry Open Protocol"](https://github.com/denizkanmaz/qberry-open-protocol).
 
-You can get the latest release from the official Nuget.org feed or from the github releases page.
+You can get the latest release from the official [Nuget.org feed](https://www.nuget.org/packages/Qberry.Open.Protocol.Parsing) or from the [github releases page](https://github.com/denizkanmaz/qberry-open-protocol-parsing-dotnet/releases).
 
 [![Build Status](https://travis-ci.org/denizkanmaz/qberry-open-protocol-parsing-dotnet.svg?branch=master)](https://travis-ci.org/denizkanmaz/qberry-open-protocol-parsing-dotnet)
 
