@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <Version>1.0.0-beta1</Version>
-    <Description>Official Core library for Qberry Open Protocol .</Description>
+    <Version>1.0.0</Version>
+    <Description>Official Core library for "Qberry Open Protocol".</Description>
     <Authors>Deniz Kanmaz</Authors>
     <PackageProjectUrl>https://github.com/denizkanmaz/qberry-open-protocol-parsing-dotnet</PackageProjectUrl>
     <RepositoryUrl>https://github.com/denizkanmaz/qberry-open-protocol-parsing-dotnet</RepositoryUrl>
