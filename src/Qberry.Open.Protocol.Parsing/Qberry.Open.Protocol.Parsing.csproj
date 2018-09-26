@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <Version>1.0.0-beta2</Version>
+    <Version>1.0.0</Version>
     <Description>Official parsing library for "Qberry Open Protocol".</Description>
     <Authors>Deniz Kanmaz</Authors>
     <PackageLicenseUrl></PackageLicenseUrl>

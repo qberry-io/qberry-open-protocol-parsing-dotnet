@@ -15,3 +15,6 @@ Used [SemVer](http://semver.org/) for versioning. For the versions available, se
 
 ### Fixes
 - Throws NullReference exception for some messages (OQPD-2).
+
+## [1.0.0] - 2018-09-26
+No changes
